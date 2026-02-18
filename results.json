@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "Real-world (Digits)",
+    "model": "Custom DT",
+    "accuracy": 0.8778,
+    "precision": 0.8748,
+    "recall": 0.8737,
+    "f1": 0.8743
+  },
+  {
+    "dataset": "Real-world (Digits)",
+    "model": "Sklearn DT",
+    "accuracy": 0.85,
+    "precision": 0.8517,
+    "recall": 0.8459,
+    "f1": 0.8488
+  },
+  {
+    "dataset": "Synthetic (noisy)",
+    "model": "Custom DT",
+    "accuracy": 0.7625,
+    "precision": 0.7629,
+    "recall": 0.7629,
+    "f1": 0.7629
+  },
+  {
+    "dataset": "Synthetic (noisy)",
+    "model": "Sklearn DT",
+    "accuracy": 0.75,
+    "precision": 0.7524,
+    "recall": 0.7511,
+    "f1": 0.7517
+  },
+  {
+    "dataset": "Imbalanced (95/5)",
+    "model": "Custom DT",
+    "accuracy": 0.94,
+    "precision": 0.6876,
+    "recall": 0.6535,
+    "f1": 0.6701
+  },
+  {
+    "dataset": "Imbalanced (95/5)",
+    "model": "Sklearn DT",
+    "accuracy": 0.94,
+    "precision": 0.6436,
+    "recall": 0.5635,
+    "f1": 0.6009
+  }
+]
