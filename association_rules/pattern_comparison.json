@@ -1,0 +1,780 @@
+[
+  {
+    "dataset": "Real-world (Adult)",
+    "algorithm": "Brute Force",
+    "time_sec": 6.3578,
+    "n_frequent_itemsets": 1833,
+    "n_rules": 4372,
+    "candidates_checked": 10700,
+    "top_rules": [
+      {
+        "antecedent": [
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1844,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "Class=0",
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1074,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F10=Low",
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.183,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F3=Med"
+        ],
+        "consequent": [
+          "F11=Low",
+          "F4=High"
+        ],
+        "support": 0.1844,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F11=Low",
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1844,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F12=Med",
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1558,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F13=Med",
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1718,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F1=Med",
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1636,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F3=Med",
+          "F6=High"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1016,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F3=Med",
+          "F7=Low"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1378,
+        "confidence": 1.0,
+        "lift": 1.8242
+      }
+    ]
+  },
+  {
+    "dataset": "Real-world (Adult)",
+    "algorithm": "Apriori",
+    "time_sec": 2.29,
+    "n_frequent_itemsets": 1833,
+    "n_rules": 4372,
+    "candidates_checked": 2467,
+    "top_rules": [
+      {
+        "antecedent": [
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1844,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F13=Med",
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1718,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F3=Med",
+          "F7=Low"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1378,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F3=Med",
+          "F8=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1666,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F3=Med"
+        ],
+        "consequent": [
+          "F11=Low",
+          "F4=High"
+        ],
+        "support": 0.1844,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F11=Low",
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1844,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F3=Med",
+          "F9=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1288,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F3=Med",
+          "F6=High"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1016,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F12=Med",
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1558,
+        "confidence": 1.0,
+        "lift": 1.8242
+      },
+      {
+        "antecedent": [
+          "F1=Med",
+          "F3=Med"
+        ],
+        "consequent": [
+          "F4=High"
+        ],
+        "support": 0.1636,
+        "confidence": 1.0,
+        "lift": 1.8242
+      }
+    ]
+  },
+  {
+    "dataset": "Synthetic (noisy)",
+    "algorithm": "Brute Force",
+    "time_sec": 3.9068,
+    "n_frequent_itemsets": 981,
+    "n_rules": 255,
+    "candidates_checked": 17343,
+    "top_rules": [
+      {
+        "antecedent": [
+          "F0=Low",
+          "F3=Low"
+        ],
+        "consequent": [
+          "F13=High"
+        ],
+        "support": 0.111,
+        "confidence": 0.8775,
+        "lift": 2.6311
+      },
+      {
+        "antecedent": [
+          "F10=Low",
+          "F6=High"
+        ],
+        "consequent": [
+          "Class=1"
+        ],
+        "support": 0.106,
+        "confidence": 0.8618,
+        "lift": 1.6998
+      },
+      {
+        "antecedent": [
+          "F2=Low",
+          "F6=High"
+        ],
+        "consequent": [
+          "F13=High"
+        ],
+        "support": 0.1,
+        "confidence": 0.8584,
+        "lift": 2.5738
+      },
+      {
+        "antecedent": [
+          "F0=High",
+          "F3=High"
+        ],
+        "consequent": [
+          "F13=Low"
+        ],
+        "support": 0.106,
+        "confidence": 0.8548,
+        "lift": 2.5632
+      },
+      {
+        "antecedent": [
+          "F2=High",
+          "F6=High"
+        ],
+        "consequent": [
+          "F7=Low"
+        ],
+        "support": 0.1025,
+        "confidence": 0.8436,
+        "lift": 2.5296
+      },
+      {
+        "antecedent": [
+          "F0=Low",
+          "F2=Low"
+        ],
+        "consequent": [
+          "F13=High"
+        ],
+        "support": 0.1425,
+        "confidence": 0.8358,
+        "lift": 2.5061
+      },
+      {
+        "antecedent": [
+          "F10=High",
+          "F9=High"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1265,
+        "confidence": 0.8322,
+        "lift": 1.6881
+      },
+      {
+        "antecedent": [
+          "F3=High",
+          "F8=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.104,
+        "confidence": 0.8287,
+        "lift": 1.6809
+      },
+      {
+        "antecedent": [
+          "F11=High",
+          "F2=Low"
+        ],
+        "consequent": [
+          "F13=High"
+        ],
+        "support": 0.104,
+        "confidence": 0.8125,
+        "lift": 2.4363
+      },
+      {
+        "antecedent": [
+          "F10=Low",
+          "F3=Low"
+        ],
+        "consequent": [
+          "Class=1"
+        ],
+        "support": 0.1405,
+        "confidence": 0.8098,
+        "lift": 1.5972
+      }
+    ]
+  },
+  {
+    "dataset": "Synthetic (noisy)",
+    "algorithm": "Apriori",
+    "time_sec": 2.6162,
+    "n_frequent_itemsets": 981,
+    "n_rules": 255,
+    "candidates_checked": 9987,
+    "top_rules": [
+      {
+        "antecedent": [
+          "F0=Low",
+          "F3=Low"
+        ],
+        "consequent": [
+          "F13=High"
+        ],
+        "support": 0.111,
+        "confidence": 0.8775,
+        "lift": 2.6311
+      },
+      {
+        "antecedent": [
+          "F10=Low",
+          "F6=High"
+        ],
+        "consequent": [
+          "Class=1"
+        ],
+        "support": 0.106,
+        "confidence": 0.8618,
+        "lift": 1.6998
+      },
+      {
+        "antecedent": [
+          "F2=Low",
+          "F6=High"
+        ],
+        "consequent": [
+          "F13=High"
+        ],
+        "support": 0.1,
+        "confidence": 0.8584,
+        "lift": 2.5738
+      },
+      {
+        "antecedent": [
+          "F0=High",
+          "F3=High"
+        ],
+        "consequent": [
+          "F13=Low"
+        ],
+        "support": 0.106,
+        "confidence": 0.8548,
+        "lift": 2.5632
+      },
+      {
+        "antecedent": [
+          "F2=High",
+          "F6=High"
+        ],
+        "consequent": [
+          "F7=Low"
+        ],
+        "support": 0.1025,
+        "confidence": 0.8436,
+        "lift": 2.5296
+      },
+      {
+        "antecedent": [
+          "F0=Low",
+          "F2=Low"
+        ],
+        "consequent": [
+          "F13=High"
+        ],
+        "support": 0.1425,
+        "confidence": 0.8358,
+        "lift": 2.5061
+      },
+      {
+        "antecedent": [
+          "F10=High",
+          "F9=High"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1265,
+        "confidence": 0.8322,
+        "lift": 1.6881
+      },
+      {
+        "antecedent": [
+          "F3=High",
+          "F8=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.104,
+        "confidence": 0.8287,
+        "lift": 1.6809
+      },
+      {
+        "antecedent": [
+          "F11=High",
+          "F2=Low"
+        ],
+        "consequent": [
+          "F13=High"
+        ],
+        "support": 0.104,
+        "confidence": 0.8125,
+        "lift": 2.4363
+      },
+      {
+        "antecedent": [
+          "F10=Low",
+          "F3=Low"
+        ],
+        "consequent": [
+          "Class=1"
+        ],
+        "support": 0.1405,
+        "confidence": 0.8098,
+        "lift": 1.5972
+      }
+    ]
+  },
+  {
+    "dataset": "Imbalanced (95/5)",
+    "algorithm": "Brute Force",
+    "time_sec": 2.1839,
+    "n_frequent_itemsets": 990,
+    "n_rules": 664,
+    "candidates_checked": 9177,
+    "top_rules": [
+      {
+        "antecedent": [
+          "F0=High",
+          "F5=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1085,
+        "confidence": 1.0,
+        "lift": 1.0526
+      },
+      {
+        "antecedent": [
+          "F2=High",
+          "F5=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.105,
+        "confidence": 1.0,
+        "lift": 1.0526
+      },
+      {
+        "antecedent": [
+          "F6=Low",
+          "F7=High"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1835,
+        "confidence": 0.9973,
+        "lift": 1.0498
+      },
+      {
+        "antecedent": [
+          "F5=Low",
+          "F6=High"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.156,
+        "confidence": 0.9968,
+        "lift": 1.0493
+      },
+      {
+        "antecedent": [
+          "F0=Low",
+          "F7=High"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.114,
+        "confidence": 0.9956,
+        "lift": 1.048
+      },
+      {
+        "antecedent": [
+          "F11=High",
+          "F5=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.109,
+        "confidence": 0.9954,
+        "lift": 1.0478
+      },
+      {
+        "antecedent": [
+          "F1=Low",
+          "F7=High"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1045,
+        "confidence": 0.9952,
+        "lift": 1.0476
+      },
+      {
+        "antecedent": [
+          "F3=Med",
+          "F5=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1015,
+        "confidence": 0.9951,
+        "lift": 1.0475
+      },
+      {
+        "antecedent": [
+          "F0=Low",
+          "F9=Med"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1,
+        "confidence": 0.995,
+        "lift": 1.0474
+      },
+      {
+        "antecedent": [
+          "F2=High",
+          "F6=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1445,
+        "confidence": 0.9931,
+        "lift": 1.0454
+      }
+    ]
+  },
+  {
+    "dataset": "Imbalanced (95/5)",
+    "algorithm": "Apriori",
+    "time_sec": 1.2235,
+    "n_frequent_itemsets": 990,
+    "n_rules": 664,
+    "candidates_checked": 4266,
+    "top_rules": [
+      {
+        "antecedent": [
+          "F0=High",
+          "F5=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1085,
+        "confidence": 1.0,
+        "lift": 1.0526
+      },
+      {
+        "antecedent": [
+          "F2=High",
+          "F5=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.105,
+        "confidence": 1.0,
+        "lift": 1.0526
+      },
+      {
+        "antecedent": [
+          "F6=Low",
+          "F7=High"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1835,
+        "confidence": 0.9973,
+        "lift": 1.0498
+      },
+      {
+        "antecedent": [
+          "F5=Low",
+          "F6=High"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.156,
+        "confidence": 0.9968,
+        "lift": 1.0493
+      },
+      {
+        "antecedent": [
+          "F0=Low",
+          "F7=High"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.114,
+        "confidence": 0.9956,
+        "lift": 1.048
+      },
+      {
+        "antecedent": [
+          "F11=High",
+          "F5=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.109,
+        "confidence": 0.9954,
+        "lift": 1.0478
+      },
+      {
+        "antecedent": [
+          "F1=Low",
+          "F7=High"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1045,
+        "confidence": 0.9952,
+        "lift": 1.0476
+      },
+      {
+        "antecedent": [
+          "F3=Med",
+          "F5=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1015,
+        "confidence": 0.9951,
+        "lift": 1.0475
+      },
+      {
+        "antecedent": [
+          "F0=Low",
+          "F9=Med"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1,
+        "confidence": 0.995,
+        "lift": 1.0474
+      },
+      {
+        "antecedent": [
+          "F2=High",
+          "F6=Low"
+        ],
+        "consequent": [
+          "Class=0"
+        ],
+        "support": 0.1445,
+        "confidence": 0.9931,
+        "lift": 1.0454
+      }
+    ]
+  }
+]
